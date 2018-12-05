@@ -1,0 +1,19 @@
+{
+  "name": "node-web-server",
+  "version": "1.0.0",
+  "description": " ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "scss": "node-sass -watch styles/scss -o styles/css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "hbs": "^4.0.1",
+    "hbs-utils": "0.0.4",
+    "node-sass": "^4.10.0"
+  }
+}
